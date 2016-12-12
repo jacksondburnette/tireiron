@@ -12,6 +12,7 @@ html {
 
 body {
   margin: 2rem 0 5rem;
+  background-color: #041226;
   color: #333;
 }
 
@@ -27,14 +28,14 @@ a {
 }
 
 a:hover, a:focus {
-  text-decoration: underline;
+    color: #c7c7c7;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, sans-serif;
   margin: 0 0 0.5rem -0.1rem /* align left edge */;
   line-height: 1;
-  color: #111;
+  color: #ffffff;
   text-rendering: optimizeLegibility;
 }
 
