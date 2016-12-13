@@ -7,3 +7,19 @@
   'normalize',
   'solo',
   'syntax';
+
+.content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    .announcement {
+        padding: 0.5rem;
+    }
+    .pic {
+        padding: 0.5rem;
+        blockquote {
+            margin: 0;
+        }
+    }
+}

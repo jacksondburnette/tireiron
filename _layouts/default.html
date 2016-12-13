@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="{{ site.description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="css/main.css">
-{% include head.html %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="css/main.css"> {% include head.html %}
 </head>
+
 <body>
-  <div class="container">
-    <h1><a href="./">{{ site.tag_text }}</a></h1>
+    <div class="container">
+        <div class="header">
+            <div class="title"><h1><a href="./">{{ site.tag_text }}</a></h1></div>
+            <div class="socialmedia">
+                <a href="https://open.spotify.com/artist/78xGQ3qJD4D0uSsfG3nWJk">SPOTIFY</a>
+                <a href="https://www.instagram.com/wearetireiron/">INSTAGRAM</a>
+                <a href="https://geo.itunes.apple.com/us/album/right-foot-left-foot/id1171646344?i=1171646403&mt=1&app=music">ITUNES</a>
+                <a href="https://www.youtube.com/channel/UCXvAg351t9F7kPsXyLaBqlg">YOUTUBE</a>
+                <a href="">TWITTER?</a>
+            </div>
+        </div>
     {{ content }}
-  </div>
-{% include scripts.html %}
+    </div>
+    {% include scripts.html %}
 </body>
+
 </html>
