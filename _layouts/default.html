@@ -13,16 +13,32 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="title"><h1><a href="./">{{ site.tag_text }}</a></h1></div>
+            <div class="title">
+                <h1><a href="./">{{ site.tag_text }}</a></h1></div>
             <div class="socialmedia">
-                <a href="https://open.spotify.com/artist/78xGQ3qJD4D0uSsfG3nWJk">SPOTIFY</a>
-                <a href="https://www.instagram.com/wearetireiron/">INSTAGRAM</a>
-                <a href="https://geo.itunes.apple.com/us/album/right-foot-left-foot/id1171646344?i=1171646403&mt=1&app=music">ITUNES</a>
-                <a href="https://www.youtube.com/channel/UCXvAg351t9F7kPsXyLaBqlg">YOUTUBE</a>
-                <a href="">TWITTER?</a>
+                <a href="https://open.spotify.com/artist/78xGQ3qJD4D0uSsfG3nWJk">
+                    <div class="">
+                        SPOTIFY
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/wearetireiron/">
+                    <div class="">
+                        INSTAGRAM
+                    </div>
+                </a>
+                <a href="https://geo.itunes.apple.com/us/album/right-foot-left-foot/id1171646344?i=1171646403&mt=1&app=music">
+                    <div class="">
+                        ITUNES
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/channel/UCXvAg351t9F7kPsXyLaBqlg">
+                    <div class="">
+                        YOUTUBE
+                    </div>
+                </a>
             </div>
         </div>
-    {{ content }}
+        {{ content }}
     </div>
     {% include scripts.html %}
 </body>
