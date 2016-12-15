@@ -17,6 +17,11 @@ html {
 
         .container {
             .header {
+                background: #041200 url("dummy_header.jpg") 50% 40%;
+                background-size: cover;
+                height: 175px;
+                border-bottom: 1px solid #4a4545;
+
                 .title {
                     display: inline-block;
                     margin: 0.5rem;
@@ -29,11 +34,10 @@ html {
 
                     a {
                         display: inline-block;
-                        width: 3rem;
-                        height: 3rem;
+                        width: 2.75rem;
+                        height: 2.75rem;
                         margin: 0.5rem;
                         text-align: center;
-                        overflow: hidden;
 
                         div {
                             position: absolute;
