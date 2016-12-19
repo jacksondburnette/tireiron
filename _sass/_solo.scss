@@ -49,6 +49,24 @@ html {
                 }
             }
         }
+
+        .content {
+            display: flex; 
+            text-align: center;
+            .left-col {
+                order: 1;
+                flex: 1;
+            }
+            .center-col {
+                background-color:#2c2e63;
+                order: 2;
+                flex: 5;
+            }
+            .right-col {
+                order: 3;
+                flex: 1
+            }
+        }
     }
 }
 
