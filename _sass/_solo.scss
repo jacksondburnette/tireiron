@@ -20,7 +20,7 @@ html {
                 background: #041200 url("dummy_header.jpg") 50% 40%;
                 background-size: cover;
                 height: 175px;
-                border-bottom: 1px solid #4a4545;
+                border-bottom: 3px solid #4a4545;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
@@ -58,7 +58,6 @@ html {
                 flex: 1;
             }
             .center-col {
-                background-color:#2c2e63;
                 order: 2;
                 flex: 5;
             }
