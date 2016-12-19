@@ -21,6 +21,9 @@ html {
                 background-size: cover;
                 height: 175px;
                 border-bottom: 1px solid #4a4545;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
 
                 .title {
                     display: inline-block;
@@ -31,16 +34,16 @@ html {
                     display: inline-block;
                     float: right;
                     font-size: 0.6rem;
+                    display: flex;
 
                     a {
                         display: inline-block;
                         width: 2.75rem;
                         height: 2.75rem;
                         margin: 0.5rem;
-                        text-align: center;
 
                         div {
-                            position: absolute;
+                            margin: auto;
                         }
                     }
                 }
