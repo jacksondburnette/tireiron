@@ -11,33 +11,30 @@ html {
 
 html {
     body {
-        background-color: #041226;
+        background-color: #ffffff;
         color: #333;
         margin: 0;
 
         .container {
             .header {
-                background: #041200 url("dummy_header.jpg") 50% 40%;
-                background-size: cover;
-                height: 175px;
-                border-bottom: 3px solid #4a4545;
+                background: #041200;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                align-items: flex-end;
 
                 .title {
-                    display: inline-block;
-                    margin: 0.5rem;
+                    order: 1;
+                    margin-left: 0.25rem;
                 }
 
                 .socialmedia {
-                    display: inline-block;
-                    float: right;
+                    order: 2;
                     font-size: 0.6rem;
+                    margin-bottom: 0.5rem;
                     display: flex;
 
                     a {
-                        display: inline-block;
                         width: 2.75rem;
                         height: 2.75rem;
                         margin: 0.5rem;
@@ -48,22 +45,32 @@ html {
                     }
                 }
             }
+            border-bottom: 3px solid #4a4545;
         }
 
         .content {
-            display: flex; 
+            display: flex;
             text-align: center;
+
             .left-col {
                 order: 1;
                 flex: 1;
             }
+
             .center-col {
+                background-color: #25303e;
                 order: 2;
                 flex: 5;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
             }
+
             .right-col {
                 order: 3;
-                flex: 1
+                flex: 1;
             }
         }
     }
@@ -95,7 +102,7 @@ h6 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
 
